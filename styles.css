@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    background-color: grey;
+    margin: auto;
+}
+
+nav{
+  color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: sticky  ;
+margin:0px;
+width: 100%;
+background-color:#d40808;
+z-index: 100;
+}
+
+.item2{
+ flex-grow: 2;
+ text-align: center;
+ font-size:25px;
+ font-weight: bold;
+ 
+}
+.item2 a{
+  font-family: 'Stylish', sans-serif;
+ 
+}
+.item{
+  padding: 10px;
+  border: 2px solid #d40808;
+}
+.setting{
+    height: 40px;
+    width: 40px;
+
+
+ }
+ .user{
+     height: 40px;
+    width: 40px;
+
+
+ }
+.container{
+  
+ display: grid;
+ grid-template-rows: auto;
+ grid-template-columns: auto;
+ justify-content: center;
+ padding-top: 150px;
+
+ 
+}
+.box{
+  font-weight: bold;
+  color: white;
+}
+
+.p1{
+  display: block;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+.search {
+    display: flex;
+    
+    align-items: center;
+    
+  }
+.searchTerm {
+    width:200px;
+    border: 3px solid #d40808;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  .searchTerm:focus{
+    color: #d40808;
+  }
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #d40808;
+    background: #d40808;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+  }
+
+
+
+  .myButton {
+    margin-left: 10px;
+          background:linear-gradient(to bottom, #d40808 5%, #8c1f1f 100%);
+      background-color:#d40808;
+      border-radius:28px;
+      border:1px solid #e01919;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:17px;
+      padding:9px 19px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #000000;
+  }
+  .myButton:hover {
+      background:linear-gradient(to bottom, #8c1f1f 5%, #d40808 100%);
+      background-color:#8c1f1f;
+  }
+
+
+
+
+
+.item:hover{
+border-color: #fff;
+}
+
+.setting:hover{
+    filter: brightness(0) invert(1);
+}
+.user:hover{
+    filter: brightness(0) invert(1);
+}
